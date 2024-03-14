@@ -1,1 +1,3 @@
 # staticsitegenerator
+
+First test commit.
