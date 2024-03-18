@@ -19,8 +19,8 @@ class TestHTMLNode(unittest.TestCase):
         self.assertEqual(node.to_html(), "<p>Hello, world!</p>")
 
     def test_to_html_no_tag(self): 
-        node = LeafNode(None, "Hello world!")
-        self.assertEqual(node.to_html(), "Hello, wolrd!")
+        node = LeafNode(None, "Hello, world!")
+        self.assertEqual(node.to_html(), "Hello, world!")
 
 if __name__ == "__main__": 
     unittest.main()
